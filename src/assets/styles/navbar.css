@@ -1,0 +1,131 @@
+nav {
+  width: 100vw;
+  height: 8vh;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+}
+
+.nav-list-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 20%;
+  background-color: rgb(179, 192, 131);
+  width: 100vw;
+  max-width: 1800px;
+  height: 100vh;
+  z-index: 2;
+  margin: 0;
+  padding-right: 1.5rem;
+  transform: translateY(-100vh);
+}
+
+.nav-list-1 li {
+  pad: 1.5rem;
+  list-style: none;
+}
+
+.show {
+  transform: translateY(0vh);
+}
+
+.navlinks2-container {
+  display: none;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav button,
+:active :visited :hover {
+  background-color: unset;
+  border: none;
+}
+
+nav button {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 690px) {
+  .menu-icon-container {
+    display: none;
+  }
+
+  .li-item-small-screen {
+    display: none;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 2fr max-content 2fr;
+    justify-content: center;
+    align-items: center;
+    display: relative;
+  }
+
+  .navlinks1-container {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+    width: unset;
+    height: unset;
+  }
+
+  .logo-container {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 0 1.5rem;
+  }
+
+  .navlinks2-container {
+    display: block;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+  }
+
+  .nav-list-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+
+    transform: translateY(0vh);
+
+    background-color: unset;
+    position: unset;
+    width: unset;
+    height: unset;
+  }
+
+  .nav-list-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    list-style: none;
+    padding: 0 1.5rem;
+    margin: 0;
+  }
+}
