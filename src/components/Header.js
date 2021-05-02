@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import "../assets/styles/header.css"
 
 const Header = () => {
   return (

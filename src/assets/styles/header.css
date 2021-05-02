@@ -1,6 +1,6 @@
 header {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   max-height: 700vh;
 
   display: flex;
@@ -26,7 +26,7 @@ header {
   top: 30%;
   left: 3%;
 
-  width: 100%;
+  width: 97%;
 }
 
 .header-headline-container h1 {
@@ -119,6 +119,7 @@ header button {
   }
   .header-headline-container {
     left: 15%;
+    width: 100vw;
   }
 
   .design-shape-container {
