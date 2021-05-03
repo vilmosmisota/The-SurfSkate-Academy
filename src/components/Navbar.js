@@ -25,7 +25,7 @@ const Navbar = () => {
             <li className="li-item-small-screen">BOOKING</li>
           </Link>
           <Link to="/lessons" onClick={() => setShow(false)}>
-            <li className="li-item-small-screen">LESSONS</li>
+            <li className="li-item-small-screen">COACHING</li>
           </Link>
           <li>
             <button
@@ -43,7 +43,7 @@ const Navbar = () => {
             <li>BOOKING</li>
           </Link>
           <Link to="/lessons">
-            <li>LESSONS</li>
+            <li>COACHING</li>
           </Link>
         </ul>
       </div>

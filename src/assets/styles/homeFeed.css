@@ -1,11 +1,11 @@
 .home-feed-container {
   width: 100vw;
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 140px auto;
 }
 
 .home-feed-container section {
-  margin: 100px 5%;
+  margin: 20% 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,8 @@
 
 .message-container {
   width: 95%;
-  max-width: 600px;
+  max-width: 1200px;
+  height: min-content;
   padding: 50px 1rem;
   position: relative;
   z-index: 2;
@@ -26,10 +27,13 @@
   font-weight: 700;
   text-align: center;
   line-height: 1.5rem;
+  padding: 0 0.5rem;
+  margin: 0 auto;
 }
 
 .message-container p {
   font-weight: 300;
+  padding: 0.5rem;
 }
 
 .message-container::after {
@@ -42,7 +46,7 @@
   height: 100%;
   background-color: var(--yellow);
   z-index: -1;
-  /* transform: skew(-0.06turn, 18deg); */
+  /* transform: skew(0.06turn, -18deg); */
 }
 
 .first-section-img-container,
@@ -51,4 +55,69 @@
   width: 85%;
   margin-top: -10%;
   z-index: 5;
+  text-align: center;
+}
+
+.home-feed-img {
+  box-shadow: 5px 5px 10px 2px hsla(0, 0%, 27%, 0.2);
+}
+
+@media screen and (min-width: 750px) {
+  .home-feed-container {
+    margin: 300px auto;
+  }
+
+  .home-feed-container section {
+    margin: 200px 5%;
+  }
+
+  .message-container {
+    padding: 90px 1rem 150px 1rem;
+  }
+
+  .message-container h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding: 1rem 1.5rem;
+    max-width: 600px;
+  }
+
+  .message-container p {
+    padding: 0.5rem 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+  }
+
+  .first-section-img-container,
+  .third-section-img-container {
+    width: 75%;
+    /* margin-top: -5%;
+    z-index: 5; */
+    margin-left: 30%;
+  }
+
+  .second-section-img-container {
+    width: 75%;
+    /* margin-top: -5%;
+    z-index: 5; */
+    margin-right: 30%;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .first-section-img-container,
+  .third-section-img-container {
+    width: 75%;
+    /* margin-top: -5%;
+    z-index: 5; */
+    margin-left: 40%;
+  }
+
+  .second-section-img-container {
+    width: 75%;
+    /* margin-top: -5%;
+    z-index: 5; */
+    margin-right: 40%;
+  }
 }

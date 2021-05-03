@@ -23,6 +23,7 @@ const HomeFeed = () => {
             layout="constrained"
             quality={95}
             placeholder="none"
+            className="home-feed-img"
           />
         </div>
       </section>
@@ -45,6 +46,7 @@ const HomeFeed = () => {
             layout="constrained"
             quality={95}
             placeholder="none"
+            className="home-feed-img"
           />
         </div>
       </section>
@@ -67,6 +69,7 @@ const HomeFeed = () => {
             layout="constrained"
             quality={95}
             placeholder="none"
+            className="home-feed-img"
           />
         </div>
       </section>

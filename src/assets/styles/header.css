@@ -11,6 +11,10 @@ header {
   position: relative;
 }
 
+.header-img {
+  box-shadow: 5px 5px 10px 2px hsla(0, 0%, 27%, 0.15);
+}
+
 .header-img-container {
   margin: -8vh 0 0 0;
   padding: 0;
@@ -93,7 +97,7 @@ header button {
     position: absolute;
     width: 100%;
     max-width: 900px;
-    height: 90vh;
+    height: 80vh;
     max-height: 700px;
     top: 8%;
     background: #f7e17c;
@@ -124,7 +128,7 @@ header button {
 
   .design-shape-container {
     max-width: 1200px;
-    max-height: unset;
+
     clip-path: polygon(80% 0, 100% 0, 100% 100%, 0 100%, 0 87%);
   }
 }
