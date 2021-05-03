@@ -21,7 +21,7 @@ const Header = () => {
           <h2>IN SCOTLAND</h2>
         </div>
         <div className="header-btn-container">
-          <button>CLASSES</button>
+          <button>BOOKING</button>
         </div>
       </div>
       <div className="design-shape-container"></div>

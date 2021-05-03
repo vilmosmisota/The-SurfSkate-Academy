@@ -29,7 +29,7 @@ const HomeFeed = () => {
       </section>
       <section className="second-section-container">
         <div className="message-container">
-          <h1>FOR BEGINNER ALL THE UP TO PRO LEVEL </h1>
+          <h1>FOR BEGINNERS ALL THE WAY UP TO ADVANCED </h1>
           <p>
             It doesn't matter if you are a beginner, intermediate or advanced
             surfer, surfskate training is ideal for correcting bad habits,

@@ -11,6 +11,26 @@
   --faded-green: #bcc8ce;
   --yellow: #f6e17c;
   --pink: #f76c6c;
+
+  /* ANIMATION TIMINGS */
+
+  --navbar-wait-time: 2600ms;
+  --navbar-load-time: 750ms;
+
+  --header-headlines-wait-time: 1500ms;
+  --header-headlines-load-time: 1200ms;
+
+  --header-headlines-smallscreen-wait-time: 1500ms;
+  --header-headlines-smallscreen-load-time: 750ms;
+
+  --header-img-wait-time: 500ms;
+  --header-img-load-time: 750ms;
+
+  --header-shape-wait-time: 1200ms;
+  --header-shape-load-time: 1400ms;
+
+  --header-btn-wait-time: 3350ms;
+  --header-btn-load-time: 750ms;
 }
 
 body {

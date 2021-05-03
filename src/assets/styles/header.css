@@ -23,6 +23,11 @@ header {
   max-width: 1200px;
   position: relative;
   text-align: center;
+
+  opacity: 0;
+  animation: header-img var(--header-img-load-time) ease-out
+    var(--header-img-wait-time);
+  animation-fill-mode: forwards;
 }
 
 .header-headline-container {
@@ -31,6 +36,12 @@ header {
   left: 3%;
 
   width: 97%;
+
+  opacity: 0;
+  transform: skew(0turn, 18deg);
+  animation: header-headlines var(--header-headlines-smallscreen-load-time)
+    ease-out var(--header-headlines-smallscreen-wait-time);
+  animation-fill-mode: forwards;
 }
 
 .header-headline-container h1 {
@@ -51,9 +62,14 @@ header {
 
 .header-btn-container {
   position: absolute;
-  top: 75%;
+  top: 80%;
   width: 100%;
   text-align: center;
+
+  opacity: 0;
+  animation: header-btn var(--header-btn-load-time) ease-out
+    var(--header-btn-wait-time);
+  animation-fill-mode: forwards;
 }
 
 header button {
@@ -68,6 +84,12 @@ header button {
   font-family: "Fira Mono", sans-serif;
   cursor: pointer;
   z-index: 16;
+  transition: transform 0.2s ease-in;
+}
+
+header button:hover {
+  transform: skew(0.06turn, -30deg);
+  opacity: 1;
 }
 
 @media screen and (min-width: 450px) {
@@ -81,6 +103,14 @@ header button {
 }
 
 @media screen and (min-width: 750px) {
+  .header-headline-container {
+    opacity: 0;
+    transform: skew(0turn, 18deg);
+    animation: header-headlines var(--header-headlines-load-time) ease-out
+      var(--header-headlines-wait-time);
+    animation-fill-mode: forwards;
+  }
+
   .header-headline-container h1 {
     font-size: 2.1rem;
     font-weight: 700;
@@ -102,7 +132,10 @@ header button {
     top: 8%;
     background: #f7e17c;
     z-index: -5;
-    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 87%);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 0%);
+    animation: header-shape-medium-screen var(--header-shape-load-time) ease-out
+      var(--header-shape-wait-time);
+    animation-fill-mode: forwards;
   }
 
   header button {
@@ -129,6 +162,56 @@ header button {
   .design-shape-container {
     max-width: 1200px;
 
+    clip-path: polygon(80% 0, 100% 0, 100% 100%, 0 100%, 0 0%);
+    animation: header-shape-big-screen var(--header-shape-load-time) ease-out
+      var(--header-shape-wait-time);
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes header-headlines {
+  0% {
+    transform: skew(0turn, 18deg);
+    opacity: 0;
+  }
+  100% {
+    transform: skew(0turn, 0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes header-img {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes header-shape-medium-screen {
+  0% {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 0%);
+  }
+  100% {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 87%);
+  }
+}
+
+@keyframes header-shape-big-screen {
+  0% {
+    clip-path: polygon(80% 0, 100% 0, 100% 100%, 0 100%, 0 0%);
+  }
+  100% {
     clip-path: polygon(80% 0, 100% 0, 100% 100%, 0 100%, 0 87%);
+  }
+}
+
+@keyframes header-btn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
