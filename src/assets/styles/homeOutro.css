@@ -1,0 +1,76 @@
+.home-outro-container {
+  width: 100vw;
+  text-align: center;
+  max-width: 1200px;
+  /* margin-bottom: 150px; */
+  margin: 0 auto 150px auto;
+}
+
+.home-link-to-coaching {
+  max-width: 500px;
+  margin: 0 auto 150px auto;
+}
+
+.home-link-to-coaching h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.home-link-to-coaching span {
+  font-family: "Pacifico", cursive;
+}
+
+.home-link-to-coaching p {
+  opacity: 0.6;
+  font-size: 1rem;
+}
+
+.home-link-to-coaching button {
+  background-color: var(--pink);
+  opacity: 0.7;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: "Fira Mono", sans-serif;
+  cursor: pointer;
+  z-index: 16;
+  box-shadow: 5px 5px 10px 2px hsla(0, 0%, 27%, 0.377);
+  transition: transform 0.2s ease-in;
+}
+
+.home-link-to-coaching button:hover {
+  transform: skew(0.06turn, -30deg);
+  opacity: 1;
+}
+
+.home-bio-container {
+  background-color: rgba(247, 108, 108, 0.6);
+  width: 85%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px 1rem;
+  transform: translateY(-20%);
+  text-align: center;
+}
+
+.home-bio-container p {
+  text-align: left;
+  font-family: "Fira Mono", sans-serif;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 750px) {
+  .home-link-to-coaching h2 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .home-bio-container {
+    transform: translateY(-30%);
+  }
+}

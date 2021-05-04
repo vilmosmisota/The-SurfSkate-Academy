@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Lato:wght@300;400;900&family=Fira+Mono:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Lato:wght@300;400;900&family=Fira+Mono:wght@400;500;700&family=Pacifico&display=swap");
 
 *,
 ::after,
@@ -11,11 +11,9 @@
   --faded-green: #bcc8ce;
   --yellow: #f6e17c;
   --pink: #f76c6c;
+  --green: #b3c083;
 
   /* ANIMATION TIMINGS */
-
-  --navbar-wait-time: 2600ms;
-  --navbar-load-time: 750ms;
 
   --header-headlines-wait-time: 1500ms;
   --header-headlines-load-time: 1200ms;
@@ -24,12 +22,12 @@
   --header-headlines-smallscreen-load-time: 750ms;
 
   --header-img-wait-time: 500ms;
-  --header-img-load-time: 750ms;
+  --header-img-load-time: 600ms;
 
   --header-shape-wait-time: 1200ms;
   --header-shape-load-time: 1400ms;
 
-  --header-btn-wait-time: 3350ms;
+  --header-btn-wait-time: 3000ms;
   --header-btn-load-time: 750ms;
 }
 

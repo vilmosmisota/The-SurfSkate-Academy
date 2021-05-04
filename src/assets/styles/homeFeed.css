@@ -1,7 +1,7 @@
 .home-feed-container {
   width: 100vw;
   max-width: 1200px;
-  margin: 140px auto;
+  margin: 130px auto;
 }
 
 .home-feed-container section {
@@ -61,6 +61,7 @@
 
 .home-feed-img {
   box-shadow: 5px 5px 10px 2px hsla(0, 0%, 27%, 0.2);
+  z-index: 6;
 }
 
 @media screen and (min-width: 750px) {
@@ -69,7 +70,7 @@
   }
 
   .home-feed-container section {
-    margin: 200px 5%;
+    margin: 150px 5%;
   }
 
   .message-container {

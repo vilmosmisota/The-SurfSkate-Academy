@@ -17,9 +17,11 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="logo-container">
-        <Logo />
-      </div>
+      <Link to="/">
+        <div className="logo-container">
+          <Logo />
+        </div>
+      </Link>
       <div className="navlinks1-container">
         <ul className={show ? "nav-list-1 show" : "nav-list-1"}>
           <Link to="/about" onClick={setShowFalse}>

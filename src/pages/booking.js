@@ -1,10 +1,11 @@
 import React from "react"
+import Layout from "../components/Layout"
 
 const booking = () => {
   return (
-    <div>
+    <Layout>
       <h1>booking page</h1>
-    </div>
+    </Layout>
   )
 }
 

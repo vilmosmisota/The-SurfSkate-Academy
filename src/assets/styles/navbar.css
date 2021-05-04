@@ -7,15 +7,11 @@ nav {
   justify-content: space-around;
   margin: 0 auto;
   position: relative;
-  z-index: 5;
-
-  opacity: 0;
-  animation: navbar var(--navbar-load-time) ease-out var(--navbar-wait-time);
-  animation-fill-mode: forwards;
+  z-index: 10;
 }
 
 .nav-list-1 {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: flex;
@@ -24,13 +20,13 @@ nav {
   text-align: center;
   align-items: flex-end;
   padding-bottom: 20%;
-  background-color: #b3c083;
+  background-color: var(--green);
   background-image: url(../images/nav_div_background.png);
   background-size: cover;
   width: 100vw;
   max-width: 1200px;
   height: 100vh;
-  z-index: 2;
+  z-index: 11;
   margin: 0;
   padding-right: 1.5rem;
   transform: translateY(-100vh);
@@ -94,6 +90,12 @@ nav button {
 .nav-icons-two a,
 .nav-icons-two button {
   color: rgba(0, 0, 0, 0.6);
+}
+
+.menu-icon-container {
+  position: fixed;
+  right: 1.5rem;
+  z-index: 10;
 }
 
 @media screen and (min-width: 690px) {
@@ -178,14 +180,5 @@ nav button {
   nav li:hover {
     color: var(--pink);
     font-weight: bold;
-  }
-}
-
-@keyframes navbar {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }

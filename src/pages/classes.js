@@ -1,10 +1,11 @@
 import React from "react"
+import Layout from "../components/Layout"
 
 const classes = () => {
   return (
-    <div>
+    <Layout>
       <h1>classes page</h1>
-    </div>
+    </Layout>
   )
 }
 
