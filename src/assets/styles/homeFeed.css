@@ -19,6 +19,7 @@
   position: relative;
   z-index: 2;
   align-self: center;
+  opacity: 1;
 }
 
 .message-container h1 {
@@ -31,9 +32,21 @@
   margin: 0 auto;
 }
 
-.message-container p {
+.home-paragraph-section {
   font-weight: 400;
   padding: 0.5rem;
+
+  opacity: 0;
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+  animation-fill-mode: forwards;
+}
+
+.fade-out {
+  animation: fadeOut 0.3s ease-in;
+  animation-fill-mode: forwards;
 }
 
 .message-container::after {
@@ -84,7 +97,7 @@
     max-width: 600px;
   }
 
-  .message-container p {
+  .home-paragraph-section {
     padding: 0.5rem 1.5rem;
     max-width: 600px;
     margin: 0 auto;
@@ -117,5 +130,23 @@
   .home-feed-container section {
     margin-left: 0;
     margin-right: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
