@@ -1,0 +1,153 @@
+.about-header {
+  width: 100vw;
+  max-height: 700vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  position: relative;
+}
+
+.header-img-container {
+  margin: -8vh 0 0 0;
+  padding: 0;
+  z-index: 2;
+  width: 100vw;
+  max-width: 1200px;
+  position: relative;
+  text-align: center;
+}
+
+.about-header-headline-container {
+  position: absolute;
+  top: 28%;
+  left: 3%;
+
+  width: 90%;
+
+  opacity: 0;
+  transform: translateY(-10%);
+  animation: header-headline-smallscreen
+    var(--header-headlines-smallscreen-load-time) ease-out
+    var(--header-headlines-smallscreen-wait-time);
+  animation-fill-mode: forwards;
+}
+
+.about-header-headline-container h1 {
+  max-width: 600px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--yellow);
+  text-align: left;
+}
+
+.about-welcome-container {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.about-welcome-container h2,
+.about-welcome-container h3 {
+  font-family: "Fira Mono", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 0 5%;
+  margin: 0 auto;
+  max-width: 900px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.about-welcome-container span {
+  font-family: "Pacifico", cursive;
+}
+
+.about-bio-first {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-paragraph-container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.about-bio-first p {
+  padding: 1rem;
+  max-width: 500px;
+}
+
+.about-img-container {
+  text-align: center;
+}
+
+@media screen and (min-width: 450px) {
+  .about-header-headline-container h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .about-header-headline-container {
+    width: 70%;
+  }
+
+  .about-header-headline-container h1 {
+    font-size: 2.1rem;
+  }
+
+  .about-welcome-container h2,
+  .about-welcome-container h3 {
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+    max-width: 700px;
+  }
+
+  .about-welcome-container {
+    margin: 30% auto 200px auto;
+    position: relative;
+  }
+
+  .about-welcome-container::before {
+    content: "";
+    display: block;
+    width: 8%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .about-welcome-container::after {
+    content: "";
+    display: block;
+    width: 8%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .about-welcome-container {
+    margin: 20% auto 200px auto;
+    position: relative;
+  }
+
+  .about-welcome-container::before,
+  .about-welcome-container::after {
+    width: 20%;
+  }
+}

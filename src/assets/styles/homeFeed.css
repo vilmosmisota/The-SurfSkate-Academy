@@ -1,7 +1,7 @@
 .home-feed-container {
   width: 100vw;
   max-width: 1200px;
-  margin: 130px auto;
+  margin: 0 auto;
 }
 
 .home-feed-container section {
@@ -9,6 +9,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.summup-message-container {
+  width: 100vw;
+  max-width: 1200px;
+}
+
+.summup-message-container h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 0 5%;
+  margin: 0 auto;
+  max-width: 900px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.summup-message-container span {
+  font-family: "Pacifico", cursive;
+  color: black;
 }
 
 .message-container {
@@ -36,17 +58,7 @@
   font-weight: 400;
   padding: 0.5rem;
 
-  opacity: 0;
-}
-
-.fade-in {
-  animation: fadeIn 0.3s ease-in;
-  animation-fill-mode: forwards;
-}
-
-.fade-out {
-  animation: fadeOut 0.3s ease-in;
-  animation-fill-mode: forwards;
+  opacity: 1;
 }
 
 .message-container::after {
@@ -79,11 +91,43 @@
 
 @media screen and (min-width: 750px) {
   .home-feed-container {
-    margin: 300px auto;
+    margin: 250px auto;
   }
 
   .home-feed-container section {
     margin: 150px 5%;
+  }
+
+  .summup-message-container h1 {
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+    max-width: 600px;
+  }
+
+  .summup-message-container {
+    position: relative;
+  }
+
+  .summup-message-container::before {
+    content: "";
+    display: block;
+    width: 15%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .summup-message-container::after {
+    content: "";
+    display: block;
+    width: 15%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
   }
 
   .message-container {
@@ -131,22 +175,9 @@
     margin-left: 0;
     margin-right: 0;
   }
-}
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
+  .summup-message-container::after,
+  .summup-message-container::before {
+    width: 20%;
   }
 }

@@ -93,6 +93,10 @@ header button:hover {
   opacity: 1;
 }
 
+.design-shape-container {
+  opacity: 0;
+}
+
 @media screen and (min-width: 450px) {
   .header-headline-container h1 {
     font-size: 1.8rem;
@@ -104,14 +108,6 @@ header button:hover {
 }
 
 @media screen and (min-width: 750px) {
-  .header-headline-container {
-    opacity: 0;
-    transform: skew(0turn, 18deg);
-    animation: header-headlines var(--header-headlines-load-time) ease-out
-      var(--header-headlines-wait-time);
-    animation-fill-mode: forwards;
-  }
-
   .header-headline-container h1 {
     font-size: 2.1rem;
     font-weight: 700;
@@ -133,6 +129,7 @@ header button:hover {
     top: 8%;
     background: #f7e17c;
     z-index: -5;
+
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 0%);
     animation: header-shape-medium-screen var(--header-shape-load-time) ease-out
       var(--header-shape-wait-time);
@@ -163,7 +160,7 @@ header button:hover {
   .design-shape-container {
     max-width: 1200px;
     height: 900px;
-    clip-path: polygon(80% 0, 100% 0, 100% 100%, 0 100%, 0 0%);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 0%);
     animation: header-shape-big-screen var(--header-shape-load-time) ease-out
       var(--header-shape-wait-time);
     animation-fill-mode: forwards;
@@ -203,18 +200,22 @@ header button:hover {
 
 @keyframes header-shape-medium-screen {
   0% {
+    opacity: 0;
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 0%);
   }
   100% {
+    opacity: 1;
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 87%);
   }
 }
 
 @keyframes header-shape-big-screen {
   0% {
+    opacity: 0;
     clip-path: polygon(80% 0, 100% 0, 100% 100%, 0 100%, 0 0%);
   }
   100% {
+    opacity: 1;
     clip-path: polygon(80% 0, 100% 0, 100% 100%, 0 100%, 0 87%);
   }
 }

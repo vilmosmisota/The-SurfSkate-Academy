@@ -4,7 +4,7 @@ nav {
   max-width: 1200px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 auto;
   position: relative;
   z-index: 10;
@@ -90,6 +90,10 @@ nav button {
 .nav-icons-two a,
 .nav-icons-two button {
   color: rgba(0, 0, 0, 0.6);
+}
+
+.logo-container {
+  padding-left: 1.5rem;
 }
 
 .menu-icon-container {

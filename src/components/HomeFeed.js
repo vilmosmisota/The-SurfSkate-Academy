@@ -5,6 +5,15 @@ import "../assets/styles/homeFeed.css"
 const HomeFeed = () => {
   return (
     <main className="home-feed-container">
+      <section>
+        <div className="summup-message-container">
+          <h1>
+            Surfskate training helps you to <span> Improve Your Surfing </span>
+            and <span> Stay Fit </span>
+            during the flat periods.
+          </h1>
+        </div>
+      </section>
       <section className="first-section-container">
         <div className="message-container">
           <h1>AT THE SURFSKATE ACADEMY </h1>
