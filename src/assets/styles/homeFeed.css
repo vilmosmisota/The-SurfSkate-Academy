@@ -106,6 +106,7 @@
 
   .summup-message-container {
     position: relative;
+    background-color: var(--yellow);
   }
 
   .summup-message-container::before {
