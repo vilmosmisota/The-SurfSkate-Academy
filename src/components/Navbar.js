@@ -70,7 +70,7 @@ const Navbar = () => {
           <Link to="/classes">
             <li>CLASSES</li>
           </Link>
-          <Link to="/lessons">
+          <Link to="/coaching">
             <li>COACHING</li>
           </Link>
         </ul>

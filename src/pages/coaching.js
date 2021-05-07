@@ -1,10 +1,11 @@
 import React from "react"
+import CoachingComp from "../components/CoachingComp"
 import Layout from "../components/Layout"
 
 const coaching = () => {
   return (
     <Layout>
-      <h1>coaching</h1>
+      <CoachingComp />
     </Layout>
   )
 }

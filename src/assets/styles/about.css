@@ -70,7 +70,7 @@
 .about-bio-first {
   width: 100vw;
   max-width: 1200px;
-  margin: 150px auto;
+  margin: 0 auto 100px auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -78,8 +78,7 @@
 }
 
 .about-bio-first div {
-  padding: 100px, 1.5rem;
-  margin: 50px 0;
+  padding: 0 1.5rem;
 }
 
 .about-paragraph-container {
@@ -94,6 +93,7 @@
 
 .about-img-container {
   text-align: center;
+  margin: 50px 0;
 }
 
 @media screen and (min-width: 450px) {
@@ -113,13 +113,13 @@
 
   .about-welcome-container h2,
   .about-welcome-container h3 {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     line-height: 2.5rem;
     max-width: 700px;
   }
 
   .about-welcome-container {
-    margin: 30% auto 200px auto;
+    margin: 30% auto 50px auto;
     position: relative;
   }
 
@@ -147,12 +147,16 @@
 
 @media screen and (min-width: 900px) {
   .about-welcome-container {
-    margin: 20% auto 200px auto;
+    margin: 20% auto 100px auto;
     position: relative;
   }
 
   .about-welcome-container::before,
   .about-welcome-container::after {
     width: 20%;
+  }
+
+  .about-paragraph-container p {
+    font-size: 1.2rem;
   }
 }
