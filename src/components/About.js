@@ -57,6 +57,59 @@ const About = () => {
             className="about-img"
           />
         </div>
+        <div className="about-img-container">
+          <StaticImage
+            src="../assets/images/about_surf.jpg"
+            alt="surfskating in Edinburgh"
+            width={500}
+            layout="constrained"
+            quality={95}
+            placeholder="none"
+            className="about-img"
+          />
+        </div>
+        <div className="about-paragraph-container">
+          <p>
+            From a very young age I was always a bit obsessed with observing my
+            own technique and that of others. I realized that I had talent but
+            if I really wanted to go far.
+          </p>
+          <p>
+            In addition to spending many hours practicing with my skateboard, I
+            had to be able to understand when I made mistakes in my technique,
+            and at the same time know how to understand biomechanics in order to
+            correct them. I developed a great ability to observe and understand
+            how to achieve the movements. This observation skill became a habit
+            and became part of my daily life both with the sport and with
+            myself. My interest in body language became part of my profession as
+            a lifeguard. During my almost 20 years of profession on the beaches
+            of the Atlantic, Pacific and Mediterranean, knowing how to observe
+            people's body language helped me to be able to identify vulnerable
+            swimmers long before the water reached their knees. All of this I
+            have also applied to surfing from day one.
+          </p>
+        </div>
+        <div className="about-paragraph-container">
+          <p>
+            I have been very interested in the surfskate training format for
+            several years and I have verified that the results are immediate.
+            Scotland has very good waves but there is a lack of consistency and
+            the cold weather could often make us stay at home. Surfskate
+            training courses are ideal for all skill levels of surfers but
+            without a doubt the benefit for Scottish surfers is even greater!
+          </p>
+        </div>
+        <div className="about-img-container">
+          <StaticImage
+            src="../assets/images/about_surfskate_training.jpg"
+            alt="surfskating in Edinburgh"
+            width={500}
+            layout="constrained"
+            quality={95}
+            placeholder="none"
+            className="about-img"
+          />
+        </div>
       </section>
     </>
   )
