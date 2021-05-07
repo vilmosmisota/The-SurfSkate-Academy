@@ -4,7 +4,7 @@ footer {
 }
 
 .footer-main-section-container {
-  background-color: var(--green);
+  background-color: var(--yellow);
   display: flex;
   flex-direction: column;
   align-items: center;

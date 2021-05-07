@@ -63,6 +63,7 @@ header {
 .header-btn-container {
   position: absolute;
   top: 80%;
+  right: 20%;
   width: 100%;
   text-align: center;
 
@@ -164,6 +165,10 @@ header button:hover {
     animation: header-shape-big-screen var(--header-shape-load-time) ease-out
       var(--header-shape-wait-time);
     animation-fill-mode: forwards;
+  }
+
+  .header-btn-container {
+    right: 15%;
   }
 }
 
