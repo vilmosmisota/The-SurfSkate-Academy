@@ -14,6 +14,7 @@
 .summup-message-container {
   width: 100vw;
   max-width: 1200px;
+  background-color: var(--yellow);
 }
 
 .summup-message-container h1 {
@@ -106,7 +107,6 @@
 
   .summup-message-container {
     position: relative;
-    background-color: var(--yellow);
   }
 
   .summup-message-container::before {
