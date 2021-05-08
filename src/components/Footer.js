@@ -16,7 +16,7 @@ const Footer = () => {
         <Link to="/classes" className="link-container">
           <div>
             <p>
-              <span>Book</span> a class with me
+              <span>Book</span> your class
             </p>
           </div>
         </Link>

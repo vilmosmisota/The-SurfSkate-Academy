@@ -11,6 +11,7 @@
   --faded-green: #bcc8ce;
   --yellow: #f6e17c;
   --pink: #f76c6c;
+  --fadedpink: hsla(0, 90%, 70%, 0.7);
   --green: #b3c083;
 
   /* ANIMATION TIMINGS */

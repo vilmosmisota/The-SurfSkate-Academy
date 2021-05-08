@@ -4,7 +4,7 @@ footer {
 }
 
 .footer-main-section-container {
-  background-color: var(--yellow);
+  background-color: var(--green);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,12 +14,17 @@ footer {
 }
 
 .link-container {
-  border: 2px solid var(--pink);
+  border: 2px solid var(--fadedpink);
   border-radius: 15px;
   width: 85%;
   max-width: 450px;
   margin: 1rem auto;
+  transition: transform 0.2s ease-in;
+}
+
+.link-container:hover {
   box-shadow: 5px 5px 10px 2px hsla(0, 0%, 27%, 0.2);
+  border: 2px solid var(--pink);
 }
 
 .footer-main-section-container p,
