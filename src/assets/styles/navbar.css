@@ -29,8 +29,9 @@ nav {
   z-index: 11;
   margin: 0;
   padding-right: 1.5rem;
-  transform: translateY(-100vh);
-  transition: transform 0.5s ease-in;
+  transform: translateX(100vh);
+  transition: transform 0.2s ease-in;
+  opacity: 0;
 }
 
 .nav-list-1 li {
@@ -43,7 +44,8 @@ nav {
 }
 
 .show {
-  transform: translateY(0vh);
+  transform: translateX(0vh);
+  opacity: 1;
 }
 
 .navlinks2-container {
@@ -152,7 +154,7 @@ nav button {
     background-image: unset;
 
     transform: translateY(0vh);
-
+    opacity: 1;
     background-color: unset;
     position: unset;
     width: unset;
