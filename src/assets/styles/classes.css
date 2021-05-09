@@ -1,0 +1,44 @@
+.class-page {
+  width: 100vw;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 1.5rem;
+}
+
+.class-header {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
+.class-table {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.class-table-header {
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.class-table-header h3 {
+  font-family: "Fira Mono", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.col1 {
+  grid-column: 1/2;
+}
+.col2 {
+  grid-column: 2/3;
+}
+.col3 {
+  grid-column: 3/4;
+}
+.col4 {
+  grid-column: 4/5;
+}

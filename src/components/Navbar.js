@@ -24,6 +24,12 @@ const Navbar = () => {
       </Link>
       <div className="navlinks1-container">
         <ul className={show ? "nav-list-1 show" : "nav-list-1"}>
+          <button
+            onClick={setShowFalse}
+            className="li-item-small-screen nav-icon-cls-btn"
+          >
+            <AiOutlineClose />
+          </button>
           <Link to="/about" onClick={setShowFalse}>
             <li>ABOUT</li>
           </Link>
@@ -40,28 +46,21 @@ const Navbar = () => {
             <li className="li-item-small-screen">COACHING</li>
           </Link>
           <div className="li-item-small-screen nav-icon-container">
-            <div className="nav-icons-one">
-              <Link to="/reviews" onClick={setShowFalse}>
-                <AiOutlineStar />
-              </Link>
-              <button onClick={setShowFalse}>
-                <a
-                  href="https://www.instagram.com/thesurfskateacademy/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <AiOutlineInstagram />
-                </a>
-              </button>
-            </div>
-            <div className="nav-icons-two">
-              <Link to="/" onClick={setShowFalse}>
-                <AiOutlineHome />
-              </Link>
-              <button onClick={setShowFalse}>
-                <AiOutlineClose />
-              </button>
-            </div>
+            <Link to="/reviews" onClick={setShowFalse}>
+              <AiOutlineStar />
+            </Link>
+            <button onClick={setShowFalse}>
+              <a
+                href="https://www.instagram.com/thesurfskateacademy/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineInstagram />
+              </a>
+            </button>
+            <Link to="/" onClick={setShowFalse}>
+              <AiOutlineHome />
+            </Link>
           </div>
         </ul>
       </div>
