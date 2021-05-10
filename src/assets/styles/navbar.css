@@ -18,7 +18,7 @@ nav {
   justify-content: space-around;
   flex-direction: column;
   text-align: center;
-  align-items: flex-end;
+  align-items: center;
   padding-bottom: 20%;
   background-color: var(--green);
   background-image: url(../images/nav_div_background.png);

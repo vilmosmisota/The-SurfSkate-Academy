@@ -1,0 +1,25 @@
+.show-classes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 25px auto;
+}
+
+.class-col1 {
+  grid-column: 1/2;
+  opacity: 0.9;
+}
+.class-col2 {
+  grid-column: 2/3;
+}
+.class-col3 {
+  grid-column: 3/4;
+  opacity: 0.9;
+}
+.class-col4 {
+  grid-column: 4/5;
+}

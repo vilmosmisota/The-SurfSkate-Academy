@@ -1,6 +1,8 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import "../assets/styles/homeFeed.css"
+import BookingIcon from "./BookingIcon"
+import { Link } from "gatsby"
 
 const HomeFeed = () => {
   return (
@@ -15,20 +17,12 @@ const HomeFeed = () => {
         </div>
       </section>
       <section>
-        <div className="book-message">
-          <h1>Book Your Class Here</h1>
-          <div className="shaka-logo-container">
-            <StaticImage
-              src="../assets/svg/kisspng-shaka-sign-stock-photography-drawing-shaka-5acd24ab731478.7358209215233937074714.png"
-              alt="shaka logo"
-              width={50}
-              layout="constrained"
-              quality={95}
-              placeholder="none"
-              className="shaka-logo"
-            />
+        <Link to="/classes">
+          <div className="book-message">
+            <h1>Book Your Class Here</h1>
+            <BookingIcon />
           </div>
-        </div>
+        </Link>
       </section>
       <section className="first-section-container">
         <div className="message-container">

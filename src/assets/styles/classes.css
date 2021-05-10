@@ -18,16 +18,16 @@
 
 .class-table-header {
   display: grid;
-  grid-template-columns: repeat(4 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-content: space-around;
   align-items: center;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .class-table-header h3 {
   font-family: "Fira Mono", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
+  font-weight: 500;
+  font-size: 0.8rem;
 }
 
 .col1 {

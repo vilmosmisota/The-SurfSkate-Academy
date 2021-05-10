@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import "../assets/styles/classes.css"
+import GetAllClasses from "../components/GetAllClasses"
 
 const classes = () => {
   return (
@@ -25,6 +26,7 @@ const classes = () => {
             </div>
           </div>
         </article>
+        <GetAllClasses />
       </main>
     </Layout>
   )

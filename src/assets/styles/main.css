@@ -46,3 +46,8 @@ body {
     rgba(153, 173, 184, 1) 75%
   );
 }
+
+a {
+  color: unset;
+  text-decoration: none;
+}
