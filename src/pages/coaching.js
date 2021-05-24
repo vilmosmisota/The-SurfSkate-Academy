@@ -3,13 +3,34 @@ import Layout from "../components/Layout"
 import "../assets/styles/coachingComp.css"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import BookingIcon from "../components/BookingIcon"
 
 const coaching = () => {
   return (
     <Layout>
+      <header>
+        <div className="header-img-container">
+          <StaticImage
+            src="../assets/images/coaching_header.jpg"
+            alt="surf training in Edinburgh"
+            width={550}
+            layout="constrained"
+            quality={100}
+            className="header-img"
+            placeholder="none"
+          />
+          <div className="header-headline-container coaching-header">
+            <h1>GROUP AND ONE-TO-ONE COACHING</h1>
+          </div>
+        </div>
+        <div className="design-shape-container"></div>
+      </header>
       <section className="coachingComp-container">
-        <div className="coaching-header">
-          <h1>One-to-One and Group Coaching</h1>
+        <div className="summup-message-container coaching-summup-wrapper">
+          <h1>
+            It's really fun and it makes you feel like
+            <span> surfing on asphalt</span>
+          </h1>
         </div>
         <div>
           <p>
@@ -77,9 +98,9 @@ const coaching = () => {
         <div>
           <h2>What happens in a one to one?</h2>
           <p>
-            The one-to-one format is the same as the group with classes of an
-            hour and a half, but by being personalized, a more detailed training
-            can be delivered and progression is faster.
+            The one to one format is a completely personalized experience
+            tailored to individual needs. A more detailed training is delivered,
+            meaning individual progression is faster.
           </p>
           <div className="about-img-container">
             <StaticImage
@@ -93,12 +114,14 @@ const coaching = () => {
             />
           </div>
         </div>
-        <div className="join-me-container">
-          <h1>SEE THE UPCOMING CLASSES HERE</h1>
+        <section>
           <Link to="/classes">
-            <button>CLASSES</button>
+            <div className="book-message">
+              <h1>Book Your Class Here</h1>
+              <BookingIcon />
+            </div>
           </Link>
-        </div>
+        </section>
       </section>
     </Layout>
   )

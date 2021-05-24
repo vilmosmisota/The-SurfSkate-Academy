@@ -26,25 +26,28 @@ const about = () => {
         </div>
         <div className="design-shape-container"></div>
       </header>
-      <section className="about-welcome-container">
+      <section className="summup-message-container about-headline-wrapper">
         <div>
-          <h2>My name is Sebastian Jimenez.</h2>
-          <h3>
-            Welcome to the <span>SurfSkate</span> academy!
-          </h3>
+          <h1>My name is Sebastian Jimenez.</h1>
+          <h1>
+            Welcome to the <span>SurfSkate academy</span>
+          </h1>
         </div>
       </section>
       <section className="about-bio-first">
         <div className="about-paragraph-container">
           <p>
-            Since I was a child and all my adolescence, skateboarding was my
-            passion. My twin brother and I spent all day on a skateboard and the
-            fact that we were twins, and that we were both very good, made us
-            more competitive which helped us go far.We both became recognized
-            skaters with sponsors like VANS, magazine appearances, and lots of
-            good competition results. From a very young age I was always a bit
-            obsessed with observing my own technique and that of others. I
-            realized that I had talent but if I really wanted to go far.
+            Since I was a child and all throughout my adolescence, skateboarding
+            was my passion. My twin brother and I spent all day on a skateboard
+            and the fact that we were twins and that we were both very good made
+            us more competitive, which helped us go far. We both became
+            recognised skaters with sponsors like VANS, magazine appearances,
+            and lots of good competition results. From a very young age I was
+            always a bit obsessed with observing my own technique and that of
+            others. I realized that I had talent but if I really wanted to go
+            far I had to be able to understand when I made mistakes in my
+            technique, and at the same time know how to understand biomechanics
+            in order to correct them.
           </p>
         </div>
         <div className="about-img-container">
@@ -58,6 +61,28 @@ const about = () => {
             className="about-img"
           />
         </div>
+        <div className="about-paragraph-container">
+          <p>
+            I developed a great ability to observe and understand how to achieve
+            the movements. This observation skill became a habit and became part
+            of my daily life both with the sport and with myself. My interest in
+            body language became part of my profession as a lifeguard. During my
+            almost 20 years of profession on the beaches of the Atlantic,
+            Pacific and Mediterranean, knowing how to observe people's body
+            language helped me to be able to identify vulnerable swimmers long
+            before the water reached their knees. All of this I have also
+            applied to surfing from day one.
+          </p>
+          <p>
+            I have worked as a surf instructor and surf coach for years in surf
+            schools in Europe, Central America and South America. Being able to
+            pass on my experience and see progress in people is something I
+            really enjoy. I have had good results in competitions and have been
+            a sponsored surfer for several years now. I have lived in Edinburgh,
+            Scotland for 5 years and my profession as a surf coach and surf
+            advisor is growing more and more.
+          </p>
+        </div>
         <div className="about-img-container">
           <StaticImage
             src="../assets/images/about_surf.jpg"
@@ -69,27 +94,7 @@ const about = () => {
             className="about-img"
           />
         </div>
-        <div className="about-paragraph-container">
-          <p>
-            From a very young age I was always a bit obsessed with observing my
-            own technique and that of others. I realized that I had talent but
-            if I really wanted to go far.
-          </p>
-          <p>
-            In addition to spending many hours practicing with my skateboard, I
-            had to be able to understand when I made mistakes in my technique,
-            and at the same time know how to understand biomechanics in order to
-            correct them. I developed a great ability to observe and understand
-            how to achieve the movements. This observation skill became a habit
-            and became part of my daily life both with the sport and with
-            myself. My interest in body language became part of my profession as
-            a lifeguard. During my almost 20 years of profession on the beaches
-            of the Atlantic, Pacific and Mediterranean, knowing how to observe
-            people's body language helped me to be able to identify vulnerable
-            swimmers long before the water reached their knees. All of this I
-            have also applied to surfing from day one.
-          </p>
-        </div>
+
         <div className="about-paragraph-container">
           <p>
             I have been very interested in the surfskate training format for

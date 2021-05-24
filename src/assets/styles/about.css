@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 0;
+  flex-wrap: nowrap;
   position: relative;
 }
 
@@ -44,27 +44,8 @@
   text-align: left;
 }
 
-.about-welcome-container {
-  width: 100vw;
-  max-width: 1200px;
+.about-headline-wrapper {
   margin: 100px auto;
-}
-
-.about-welcome-container h2,
-.about-welcome-container h3 {
-  font-family: "Fira Mono", sans-serif;
-  font-size: 1.1rem;
-  font-weight: 400;
-  text-align: center;
-  line-height: 1.5rem;
-  padding: 0 5%;
-  margin: 0 auto;
-  max-width: 900px;
-  color: rgba(0, 0, 0, 1);
-}
-
-.about-welcome-container span {
-  font-family: "Pacifico", cursive;
 }
 
 .about-bio-first {
@@ -72,9 +53,10 @@
   max-width: 1200px;
   margin: 0 auto 100px auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .about-bio-first div {
@@ -83,12 +65,12 @@
 
 .about-paragraph-container {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 750px;
 }
 
 .about-bio-first p {
   padding: 1rem;
-  max-width: 500px;
+  max-width: 750px;
 }
 
 .about-img-container {
@@ -107,6 +89,9 @@
     width: 70%;
   }
 
+  .about-headline-wrapper {
+    margin: 150px auto;
+  }
   .about-header-headline-container h1 {
     font-size: 2.1rem;
   }

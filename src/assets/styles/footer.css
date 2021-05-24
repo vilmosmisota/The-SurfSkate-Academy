@@ -4,7 +4,7 @@ footer {
 }
 
 .footer-main-section-container {
-  background-color: var(--green);
+  background-color: var(--yellow);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,7 @@ footer {
 }
 
 .link-container {
-  border: 2px solid var(--fadedpink);
+  border: 2px solid black;
   border-radius: 15px;
   width: 85%;
   max-width: 450px;
@@ -24,7 +24,7 @@ footer {
 
 .link-container:hover {
   box-shadow: 5px 5px 10px 2px hsla(0, 0%, 27%, 0.2);
-  border: 2px solid var(--pink);
+  border: 2px solid black;
 }
 
 .footer-main-section-container p,
@@ -38,6 +38,7 @@ footer {
 }
 .footer-main-section-container span {
   font-family: "Pacifico", cursive;
+  /* color: var(--green); */
 }
 
 .footer-law-section-container {

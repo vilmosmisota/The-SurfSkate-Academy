@@ -1,8 +1,11 @@
 .class-page {
-  width: 100vw;
-  max-width: 1200px;
+  width: 90vw;
+  max-width: 700px;
   margin: 50px auto;
   padding: 1.5rem;
+  background-color: var(--yellow);
+  border-radius: 20px;
+  border: 1px solid black;
 }
 
 .class-header {
@@ -18,7 +21,7 @@
 
 .class-table-header {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-around;
   align-items: center;
   border-bottom: 1px solid black;
@@ -38,7 +41,4 @@
 }
 .col3 {
   grid-column: 3/4;
-}
-.col4 {
-  grid-column: 4/5;
 }

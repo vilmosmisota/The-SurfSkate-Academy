@@ -28,8 +28,8 @@
   --header-shape-wait-time: 1200ms;
   --header-shape-load-time: 1400ms;
 
-  --header-btn-wait-time: 3000ms;
-  --header-btn-load-time: 750ms;
+  --header-msg-wait-time: 2000ms;
+  --header-msg-load-time: 1200ms;
 }
 
 body {

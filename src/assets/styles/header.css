@@ -60,40 +60,6 @@ header {
   text-align: left;
 }
 
-.header-btn-container {
-  position: absolute;
-  top: 105%;
-  right: 0;
-  width: 100%;
-  text-align: center;
-
-  opacity: 0;
-  animation: header-btn var(--header-btn-load-time) ease-out
-    var(--header-btn-wait-time);
-  animation-fill-mode: forwards;
-}
-
-header button {
-  background-color: var(--green);
-  opacity: 1;
-  border: 1px solid rgba(0, 0, 0, 0.7);
-  border-radius: 15px;
-  padding: 5px 15px;
-  font-size: 1rem;
-  text-align: center;
-  letter-spacing: 1px;
-  font-family: "Fira Mono", sans-serif;
-  cursor: pointer;
-  z-index: 16;
-  box-shadow: 5px 5px 10px 2px hsla(0, 0%, 27%, 0.377);
-  transition: transform 0.2s ease-in;
-}
-
-header button:hover {
-  transform: skew(0.06turn, -30deg);
-  opacity: 1;
-}
-
 .design-shape-container {
   opacity: 0;
 }
@@ -126,7 +92,7 @@ header button:hover {
     width: 100%;
     max-width: 900px;
     height: 80vh;
-    max-height: 700px;
+    max-height: 500px;
     top: 8%;
     background: #f7e17c;
     z-index: -5;

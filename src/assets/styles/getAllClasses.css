@@ -1,6 +1,6 @@
 .show-classes {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,4 @@
 .class-col3 {
   grid-column: 3/4;
   opacity: 0.9;
-}
-.class-col4 {
-  grid-column: 4/5;
 }

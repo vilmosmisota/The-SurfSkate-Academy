@@ -1,85 +1,49 @@
 .contact-page {
-  width: 100vw;
-  max-width: 1200px;
+  width: 90vw;
+  max-width: 600px;
+  height: 80vh;
+  max-height: 700px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
-  margin: 100px auto;
+  justify-content: center;
+  margin: 50px auto 100px auto;
+  background-color: var(--yellow);
+  padding: 1.5rem;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid black;
 }
 
 .contact-page h1 {
   font-family: "Josefin Sans", sans-serif;
-  padding: 1.5rem 0.5rem;
-  text-align: center;
   font-size: 1.2rem;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
-.contact-page-message {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.contact-form {
-  max-width: 500px;
-  /* max-height: 800px; */
-  width: 80vw;
-  /* height: 50vh; */
-  background-color: var(--yellow);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  padding: 1.5rem;
-}
-
-form label {
-  padding: 1rem;
-  font-family: "Fira Mono", sans-serif;
-  font-size: 0.9rem;
+  margin: 50px 0;
   text-align: left;
+  max-width: 400px;
+  font-weight: 400;
 }
 
-form input {
-  width: 60vw;
-  max-width: 300px;
-  border-radius: 15px;
-  margin: 1rem;
-  background-color: whitesmoke;
-}
-
-form textarea {
-  width: 60vw;
-  max-width: 300px;
-  height: 250px;
-  border-radius: 15px;
-  margin: 1rem;
-  background-color: whitesmoke;
-}
-
-form button {
+.contact-page a {
   background-color: var(--pink);
-  opacity: 1;
-  border: 1px solid rgba(0, 0, 0, 0.7);
-  border-radius: 15px;
-  padding: 5px 15px;
-  font-size: 1rem;
-  text-align: center;
-  letter-spacing: 1px;
-  font-family: "Fira Mono", sans-serif;
-  cursor: pointer;
-  z-index: 16;
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid black;
   transition: transform 0.2s ease-in;
-  margin: 1rem;
+  font-family: "Fira Mono", sans-serif;
 }
 
-.form-row {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.contact-page a:hover {
+  box-shadow: 5px 5px 10px 2px hsla(0, 0%, 27%, 0.2);
+}
+
+.contact-page p {
+  max-width: 400px;
+}
+
+@media screen and (min-width: 750px) {
+  .contact-page h1 {
+    font-size: 1.8rem;
+  }
 }

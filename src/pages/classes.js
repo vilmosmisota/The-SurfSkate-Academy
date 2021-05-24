@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import "../assets/styles/classes.css"
 import GetAllClasses from "../components/GetAllClasses"
+import { Link } from "gatsby"
 
 const classes = () => {
   return (
@@ -13,16 +14,13 @@ const classes = () => {
         <article className="class-table">
           <div className="class-table-header">
             <div className="col1">
-              <h3>Level</h3>
-            </div>
-            <div className="col2">
               <h3>Date</h3>
             </div>
-            <div className="col3">
+            <div className="col2">
               <h3>Location</h3>
             </div>
-            <div className="col4">
-              <h3>Booking</h3>
+            <div className="col3">
+              <h3>Availability</h3>
             </div>
           </div>
         </article>

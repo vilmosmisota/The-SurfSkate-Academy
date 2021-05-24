@@ -6,33 +6,18 @@ const contact = () => {
   return (
     <Layout>
       <main className="contact-page">
-        <div className="contact-page-message">
-          <h1>Have any quetions or just want to say Hi?</h1>
-          {/* <h2>
-            No worries. Just get in touch below and I will get back to you as
-            soon as possible.
-          </h2> */}
-        </div>
-        <article>
-          <h1>GET IN TOUCH</h1>
-          <form className="contact-form">
-            <div className="form-row">
-              <label htmlFor="name">your name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="form-row">
-              <label htmlFor="email">your email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="form-row">
-              <label htmlFor="message">message</label>
-              <textarea name="message" id="message"></textarea>
-            </div>
-            <button type="submit" className="btn block">
-              submit
-            </button>
-          </form>
-        </article>
+        <h1>
+          If you have questions or just want to say 'Hi', drop me an email and I
+          will get back to you as soon as possible.
+        </h1>
+
+        <a href="mailto:info@thesurfskateacademy?Subject=General">
+          <div>
+            <p>SEND EMAIL</p>
+          </div>
+        </a>
+
+        <p> or copy and paste my email address: info@thesurfskateacademy.com</p>
       </main>
     </Layout>
   )

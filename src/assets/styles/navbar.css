@@ -41,6 +41,7 @@ nav {
   font-weight: 700;
   font-size: 2rem;
   color: var(--pink);
+  -webkit-text-stroke: 1px black;
 }
 
 .show {
@@ -161,6 +162,7 @@ nav button {
     font-weight: unset;
     font-size: unset;
     color: unset;
+    -webkit-text-stroke: unset;
   }
 
   .nav-list-2 {
