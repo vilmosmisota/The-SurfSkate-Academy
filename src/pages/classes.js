@@ -2,7 +2,6 @@ import React from "react"
 import Layout from "../components/Layout"
 import "../assets/styles/classes.css"
 import GetAllClasses from "../components/GetAllClasses"
-import { Link } from "gatsby"
 
 const classes = () => {
   return (

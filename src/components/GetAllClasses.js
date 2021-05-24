@@ -1,7 +1,7 @@
 import React from "react"
-import { graphql, Link, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import "../assets/styles/getAllClasses.css"
-import BookingIcon from "./BookingIcon"
+// import BookingIcon from "./BookingIcon"
 
 const query = graphql`
   {
