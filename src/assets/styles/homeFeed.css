@@ -16,7 +16,7 @@
   max-width: 1200px;
   opacity: 0;
   transform: translateY(-10%);
-  animation: header-headline-smallscreen var(--header-msg-load-time) ease-out
+  animation: header-msg var(--header-msg-load-time) ease-out
     var(--header-msg-wait-time);
   animation-fill-mode: forwards;
 }

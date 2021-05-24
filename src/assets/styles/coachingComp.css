@@ -1,7 +1,7 @@
 .coachingComp-container {
   width: 100vw;
   max-width: 900px;
-  margin: 150px auto;
+  margin: 100px auto;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;

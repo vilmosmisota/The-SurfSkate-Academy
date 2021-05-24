@@ -6,6 +6,19 @@ import GetAllClasses from "../components/GetAllClasses"
 const classes = () => {
   return (
     <Layout>
+      <header className="classes-header-container">
+        <section className="classes-options">
+          <div className="classes-info">
+            <p>General Info</p>
+          </div>
+          <div className="classes-info">
+            <p>Payment Info</p>
+          </div>
+        </section>
+        <div>
+          <h3>How to Book:</h3>
+        </div>
+      </header>
       <main className="class-page">
         <section className="class-header">
           <h1>UPCOMING CLASSES</h1>
