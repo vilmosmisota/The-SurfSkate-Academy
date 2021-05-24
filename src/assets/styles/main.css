@@ -39,12 +39,7 @@ body {
   padding: 0;
   margin: 0;
   width: 100vw;
-  background: rgb(188, 200, 206);
-  background: linear-gradient(
-    0deg,
-    rgba(188, 200, 206, 1) 0%,
-    rgba(153, 173, 184, 1) 75%
-  );
+  background-color: #99adb8;
 }
 
 a {

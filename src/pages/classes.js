@@ -9,15 +9,13 @@ const classes = () => {
       <header className="classes-header-container">
         <section className="classes-options">
           <div className="classes-info">
-            <p>General Info</p>
+            <p>FAQ</p>
           </div>
           <div className="classes-info">
-            <p>Payment Info</p>
+            <p>PRICES</p>
           </div>
         </section>
-        <div>
-          <h3>How to Book:</h3>
-        </div>
+        <div></div>
       </header>
       <main className="class-page">
         <section className="class-header">
