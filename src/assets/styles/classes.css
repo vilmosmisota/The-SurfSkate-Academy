@@ -1,26 +1,23 @@
 .classes-header-container {
   width: 90vw;
-  max-width: 1200px;
+  max-width: 700px;
   margin: 50px auto;
 }
 
 .classes-options {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: nowrap;
   width: 100%;
-  max-width: 700px;
 }
 
 .classes-info {
-  /* border: 3px solid rgba(0, 0, 0, 0.5); */
-  border-radius: 15px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 1.5rem;
 }
 
 .classes-info p {
@@ -32,10 +29,43 @@
   font-size: 1.5rem;
 }
 
+.how-to-book {
+  padding: 1.5rem;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: var(--pink);
+  margin: 0 auto;
+}
+
+.how-to-book h3,
+.how-to-book h5 {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.how-to-book p {
+  font-family: "Fira Mono", sans-serif;
+}
+
+.send-booking {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.send-booking-btn {
+  font-family: "Fira Mono", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--pink);
+  -webkit-text-stroke: 1px black;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 .class-page {
   width: 90vw;
   max-width: 700px;
-  margin: 50px auto;
+  margin: 100px auto 150px auto;
   padding: 1.5rem;
   background-color: var(--yellow);
   border-radius: 20px;

@@ -15,6 +15,11 @@ const Navbar = () => {
     setShow(false)
   }
 
+  const active = {
+    color: "var(--pink)",
+    fontWeight: "bold",
+  }
+
   return (
     <nav>
       <Link to="/">
@@ -30,13 +35,13 @@ const Navbar = () => {
           >
             <AiOutlineClose />
           </button>
-          <Link to="/about" onClick={setShowFalse}>
+          <Link to="/about" onClick={setShowFalse} activeStyle={active}>
             <li>ABOUT</li>
           </Link>
-          <Link to="/contact" onClick={setShowFalse}>
+          <Link to="/contact" onClick={setShowFalse} activeStyle={active}>
             <li>CONTACT</li>
           </Link>
-          <Link to="/classes" onClick={setShowFalse}>
+          <Link to="/classes" onClick={setShowFalse} activeStyle={active}>
             <li className="li-item-small-screen">CLASSES</li>
           </Link>
           {/* <Link to="/booking" onClick={setShowFalse}>
@@ -66,10 +71,10 @@ const Navbar = () => {
       </div>
       <div className="navlinks2-container">
         <ul className="nav-list-2">
-          <Link to="/classes">
+          <Link to="/classes" activeStyle={active}>
             <li>CLASSES</li>
           </Link>
-          <Link to="/coaching">
+          <Link to="/coaching" activeStyle={active}>
             <li>COACHING</li>
           </Link>
         </ul>

@@ -7,11 +7,11 @@ const query = graphql`
   {
     allContentfulClasses(sort: { fields: date }) {
       nodes {
-        location
-        level
+        available
+        date(formatString: "DD MMM, h:mm a")
         id
-        fullyBooked
-        date(formatString: "DD MMM, h:mma")
+        location
+        dateTitle
       }
     }
   }
@@ -35,10 +35,10 @@ const GetAllClasses = () => {
               <p>{el.location}</p>
             </div>
             <div className="class-col3">
-              {el.fullyBooked === false ? (
-                <p>Available</p>
+              {el.available === true ? (
+                <p style={{ color: "green" }}>Available</p>
               ) : (
-                <p>Fully Booked</p>
+                <p style={{ color: "var(--pink)" }}>Fully Booked</p>
               )}
             </div>
           </section>
