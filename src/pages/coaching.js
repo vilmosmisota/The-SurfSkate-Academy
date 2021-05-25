@@ -19,9 +19,9 @@ const coaching = () => {
             className="header-img"
             placeholder="none"
           />
-          <div className="header-headline-container coaching-header">
-            <h1>GROUP AND ONE-TO-ONE COACHING</h1>
-          </div>
+        </div>
+        <div className="header-headline-container coaching-header">
+          <h1>GROUP AND ONE-TO-ONE COACHING</h1>
         </div>
         <div className="design-shape-container"></div>
       </header>
