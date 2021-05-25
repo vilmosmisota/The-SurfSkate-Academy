@@ -7,14 +7,6 @@ const classes = () => {
   return (
     <Layout>
       <header className="classes-header-container">
-        <section className="classes-options">
-          <div className="classes-info">
-            <p>FAQ</p>
-          </div>
-          <div className="classes-info">
-            <p>PRICES</p>
-          </div>
-        </section>
         <section className="how-to-book">
           <h3>How to book:</h3>
           <p>
@@ -22,7 +14,7 @@ const classes = () => {
             of the class with some introduction of your experience. Just keep an
             eye out on the availability row as classes can be fully booked. Once
             I confirm your booking, you'll be given all the info you need to
-            make the payment (more info regards payment: here).
+            make the payment (more info regards payment: "PRICES").
           </p>
           <h5>Location might change within the given area</h5>
         </section>
@@ -31,8 +23,8 @@ const classes = () => {
             href="mailto:info@thesurfskateacademy?Subject=Booking"
             className="send-booking-btn"
           >
-            <div>
-              <p>SEND EMAIL</p>
+            <div className="send-booking-btn-wrapper">
+              <p>SEND BOOKING</p>
             </div>
           </a>
           <p>
@@ -43,6 +35,18 @@ const classes = () => {
       <main className="class-page">
         <section className="class-header">
           <h1>UPCOMING CLASSES</h1>
+          <p>
+            GROUP classes only. For ONE-TO-ONE class get in touch with me via
+            email/instagram
+          </p>
+        </section>
+        <section className="classes-options">
+          <div className="classes-info">
+            <p>FAQ</p>
+          </div>
+          <div className="classes-info">
+            <p>PRICES</p>
+          </div>
         </section>
         <article className="class-table">
           <div className="class-table-header">

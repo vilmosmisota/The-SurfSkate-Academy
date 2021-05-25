@@ -8,7 +8,7 @@ import BookingIcon from "../components/BookingIcon"
 const coaching = () => {
   return (
     <Layout>
-      <header>
+      <header className="about-header">
         <div className="header-img-container">
           <StaticImage
             src="../assets/images/coaching_header.jpg"
