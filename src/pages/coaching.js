@@ -97,6 +97,17 @@ const coaching = () => {
         </div>
         <div>
           <h2>What happens in a one to one?</h2>
+          <div className="header-img-container">
+            <StaticImage
+              src="../assets/images/coaching_header.jpg"
+              alt="surf training in Edinburgh"
+              width={550}
+              layout="constrained"
+              quality={100}
+              className="header-img"
+              placeholder="none"
+            />
+          </div>
           <p>
             The one to one format is a completely personalized experience
             tailored to individual needs. A more detailed training is delivered,

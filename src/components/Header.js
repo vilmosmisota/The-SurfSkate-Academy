@@ -20,9 +20,6 @@ const Header = () => {
           <h2>FOR ALL LEVELS OF SURFERS</h2>
           <h2>IN SCOTLAND</h2>
         </div>
-        {/* <div className="header-btn-container">
-          <button>BOOK A CLASS</button>
-        </div> */}
       </div>
       <div className="design-shape-container"></div>
     </header>
