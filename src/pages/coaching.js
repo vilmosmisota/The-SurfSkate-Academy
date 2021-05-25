@@ -8,11 +8,19 @@ import BookingIcon from "../components/BookingIcon"
 const coaching = () => {
   return (
     <Layout>
-      <header>
-        <div>
-          <StaticImage src="../assets/images/coaching_group.jpg" />
+      <header className="about-header">
+        <div className="header-img-container">
+          <StaticImage
+            src="../assets/images/coaching_header.jpg"
+            alt="surfskating"
+            width={550}
+            layout="constrained"
+            quality={100}
+            className="header-img"
+            placeholder="none"
+          />
         </div>
-        <div className="header-headline-container coaching-header">
+        <div className="about-header-headline-container">
           <h1>GROUP AND ONE-TO-ONE COACHING</h1>
         </div>
         <div className="design-shape-container"></div>

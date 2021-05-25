@@ -9,12 +9,6 @@
   justify-content: center;
 }
 
-.coaching-header {
-  max-width: 190px;
-  top: 30%;
-  line-height: 2.5rem;
-}
-
 .coaching-summup-wrapper {
   margin-bottom: 100px auto;
 }
@@ -59,11 +53,6 @@
 @media screen and (min-width: 450px) {
   .coachingComp-container h1 {
     font-size: 1.8rem;
-  }
-
-  .coaching-header {
-    max-width: 300px;
-    line-height: 3rem;
   }
 
   .coachingComp-container h2 {
