@@ -11,7 +11,7 @@ const coaching = () => {
       <header>
         <div>
           <StaticImage
-            src="../assets/images/coaching_header.jpg"
+            src="../assets/images/coaching_course.jpg"
             alt="surfskating"
             width={550}
             layout="constrained"
