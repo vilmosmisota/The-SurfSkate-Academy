@@ -8,17 +8,9 @@ import BookingIcon from "../components/BookingIcon"
 const coaching = () => {
   return (
     <Layout>
-      <header className="about-header">
-        <div className="header-img-container">
-          <StaticImage
-            src="../assets/images/coaching_header.jpg"
-            alt="surf training in Edinburgh"
-            width={550}
-            layout="constrained"
-            quality={100}
-            className="header-img"
-            placeholder="none"
-          />
+      <header>
+        <div>
+          <StaticImage src="../assets/images/coaching_group.jpg" />
         </div>
         <div className="header-headline-container coaching-header">
           <h1>GROUP AND ONE-TO-ONE COACHING</h1>
@@ -97,17 +89,6 @@ const coaching = () => {
         </div>
         <div>
           <h2>What happens in a one to one?</h2>
-          <div className="header-img-container">
-            <StaticImage
-              src="../assets/images/coaching_header.jpg"
-              alt="surf training in Edinburgh"
-              width={550}
-              layout="constrained"
-              quality={100}
-              className="header-img"
-              placeholder="none"
-            />
-          </div>
           <p>
             The one to one format is a completely personalized experience
             tailored to individual needs. A more detailed training is delivered,
