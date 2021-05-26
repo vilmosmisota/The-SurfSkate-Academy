@@ -1,6 +1,7 @@
 import React from "react"
-import Layout from "../components/Layout"
-import "../assets/styles/faq.css"
+import Layout from "../../components/Layout"
+import "../../assets/styles/faq.css"
+import { HiOutlineArrowNarrowLeft } from "react-icons/hi"
 import { Link } from "gatsby"
 
 const faq = () => {
@@ -76,11 +77,27 @@ const faq = () => {
             You didn't find what you are looking for? No worries, Get in touch
             by click on the link below and I will get back to you asap.
           </h3>
-          <Link to="/contact">
-            <button>CONTACT ME</button>
-          </Link>
+          <div className="send-booking">
+            <a
+              href="mailto:info@thesurfskateacademy?Subject=Booking"
+              className="send-booking-btn"
+            >
+              <div className="send-booking-btn-wrapper">
+                <p>SEND EMAIL</p>
+              </div>
+            </a>
+            <p>
+              or copy and paste my email address: info@thesurfskateacademy.com
+            </p>
+          </div>
         </div>
       </div>
+      <Link to="/booking">
+        <section className="back-to-booking">
+          <p>back to booking</p>
+          <HiOutlineArrowNarrowLeft />
+        </section>
+      </Link>
     </Layout>
   )
 }

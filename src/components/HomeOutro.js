@@ -11,7 +11,7 @@ const HomeOutro = () => {
           <span>One-to-One</span> and <span>Group</span> coaching
         </h2>
         <p>To Find Out More...</p>
-        <Link to="/coaching">
+        <Link to="/classes">
           <button>CLICK HERE</button>
         </Link>
       </div>

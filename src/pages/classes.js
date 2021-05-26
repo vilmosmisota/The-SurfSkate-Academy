@@ -1,70 +1,130 @@
 import React from "react"
 import Layout from "../components/Layout"
 import "../assets/styles/classes.css"
-import GetAllClasses from "../components/GetAllClasses"
+import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
+import BookingIcon from "../components/BookingIcon"
 
-const classes = () => {
+const coaching = () => {
   return (
     <Layout>
-      <header className="classes-header-container">
-        <section className="how-to-book">
-          <h3>How to book:</h3>
+      <header className="about-header">
+        <div className="header-img-container">
+          <StaticImage
+            src="../assets/images/coaching_header.jpg"
+            alt="surf training in Edinburgh"
+            width={550}
+            layout="constrained"
+            quality={100}
+            className="header-img"
+            placeholder="none"
+          />
+          <div className="about-header-headline-container">
+            <h1>“GROUP and ONE-TO-ONE classes"</h1>
+          </div>
+        </div>
+        <div className="design-shape-container"></div>
+      </header>
+      <section className="coachingComp-container">
+        <div className="summup-message-container coaching-summup-wrapper">
+          <h1>
+            It's really fun and it makes you feel like
+            <span> surfing on asphalt</span>
+          </h1>
+        </div>
+        <div>
           <p>
-            Pick the date which best suits your lifestyle and email me the date
-            of the class with some introduction of your experience. Just keep an
-            eye out on the availability row as classes can be fully booked. Once
-            I confirm your booking, you'll be given all the info you need to
-            make the payment (more info regards payment: "PRICES").
-          </p>
-          <h5>Location might change within the given area</h5>
-        </section>
-        <div className="send-booking">
-          <a
-            href="mailto:info@thesurfskateacademy?Subject=Booking"
-            className="send-booking-btn"
-          >
-            <div className="send-booking-btn-wrapper">
-              <p>SEND BOOKING</p>
-            </div>
-          </a>
-          <p>
-            or copy and paste my email address: info@thesurfskateacademy.com
+            Training on land is key to improving your surfing. You can spend
+            hours in the water repeating the same mistakes without realizing it,
+            creating bad habits and frustration without any real progress. This
+            training modality corrects and builds your muscle memory so that you
+            can then apply your new movements next time in the water. One of the
+            objectives is to be able to make you learn to understand the basic
+            principles of a correct technique so that later you can correct
+            yourself after each wave and you can continue training with your
+            surfskate whenever you have free time. It's really fun and it really
+            makes you feel like surfing on asphalt.
           </p>
         </div>
-      </header>
-      <main className="class-page">
-        <section className="class-header">
-          <h1>UPCOMING CLASSES</h1>
+        <div>
+          <h2>Why is it good to do a course of a minimum of 6 classes?</h2>
           <p>
-            GROUP classes only. For ONE-TO-ONE class get in touch with me via
-            email/instagram
+            Having a surfskate will undoubtedly help you improve your technique
+            and balance a bit but there is a big difference when you take a
+            class or a course. Depending on your level of control, a single
+            class can help you create awareness of the great learning potential
+            that a surfskate can give you but it will not be enough to analyze
+            your mistakes and correct them. We believe that with a course of 6
+            classes an initial adaptation to your equipment can be achieved,
+            learn the basic requirements for correct posture, find your mistakes
+            to be able to practice exercises to improve them and be able to
+            create the ability to be able to self-analyze and realize when
+            something feels wrong. We try to have groups of no more than 8
+            students and preferably on the same level.
           </p>
+          <div className="about-img-container">
+            <StaticImage
+              src="../assets/images/coaching_group.jpg"
+              alt="surfskating in Edinburgh"
+              width={500}
+              layout="constrained"
+              quality={95}
+              placeholder="none"
+              className="about-img"
+            />
+          </div>
+        </div>
+        <div>
+          <h2>Will a course of 6 classes be enough? </h2>
+          <p>
+            It depends a lot on your level of control but the principle of
+            training is the same for everyone. The more you train, the more you
+            will improve. After taking a course, it is very likely that you will
+            want to take another course at a more advanced level and continue to
+            progress. What I want is to see happy surfers !
+          </p>
+          <div className="about-img-container">
+            <StaticImage
+              src="../assets/images/coaching_course.jpg"
+              alt="surfskating in Edinburgh"
+              width={500}
+              layout="constrained"
+              quality={95}
+              placeholder="none"
+              className="about-img"
+            />
+          </div>
+        </div>
+        <div>
+          <h2>What happens in a one to one?</h2>
+          <p>
+            The one to one format is a completely personalized experience
+            tailored to individual needs. A more detailed training is delivered,
+            meaning individual progression is faster.
+          </p>
+          <div className="about-img-container">
+            <StaticImage
+              src="../assets/images/coaching_onetoone.jpg"
+              alt="surfskating in Edinburgh"
+              width={500}
+              layout="constrained"
+              quality={95}
+              placeholder="none"
+              className="about-img"
+            />
+          </div>
+        </div>
+        <section>
+          <Link to="/booking">
+            <div className="book-message">
+              <h1>Book Your Class Here</h1>
+              <BookingIcon />
+            </div>
+          </Link>
         </section>
-        <section className="classes-options">
-          <div className="classes-info">
-            <p>FAQ</p>
-          </div>
-          <div className="classes-info">
-            <p>PRICES</p>
-          </div>
-        </section>
-        <article className="class-table">
-          <div className="class-table-header">
-            <div className="col1">
-              <h3>Date</h3>
-            </div>
-            <div className="col2">
-              <h3>Location</h3>
-            </div>
-            <div className="col3">
-              <h3>Availability</h3>
-            </div>
-          </div>
-        </article>
-        <GetAllClasses />
-      </main>
+      </section>
     </Layout>
   )
 }
 
-export default classes
+export default coaching

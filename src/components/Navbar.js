@@ -41,14 +41,14 @@ const Navbar = () => {
           <Link to="/contact" onClick={setShowFalse} activeStyle={active}>
             <li>CONTACT</li>
           </Link>
-          <Link to="/classes" onClick={setShowFalse} activeStyle={active}>
-            <li className="li-item-small-screen">CLASSES</li>
+          <Link to="/booking" onClick={setShowFalse} activeStyle={active}>
+            <li className="li-item-small-screen">BOOKING</li>
           </Link>
           {/* <Link to="/booking" onClick={setShowFalse}>
             <li className="li-item-small-screen">BOOKING</li>
           </Link> */}
-          <Link to="/coaching" onClick={setShowFalse}>
-            <li className="li-item-small-screen">COACHING</li>
+          <Link to="/classes" onClick={setShowFalse}>
+            <li className="li-item-small-screen">CLASSES</li>
           </Link>
           <div className="li-item-small-screen nav-icon-container">
             <Link to="/reviews" onClick={setShowFalse}>
@@ -71,11 +71,11 @@ const Navbar = () => {
       </div>
       <div className="navlinks2-container">
         <ul className="nav-list-2">
+          <Link to="/booking" activeStyle={active}>
+            <li>BOOKING</li>
+          </Link>
           <Link to="/classes" activeStyle={active}>
             <li>CLASSES</li>
-          </Link>
-          <Link to="/coaching" activeStyle={active}>
-            <li>COACHING</li>
           </Link>
         </ul>
       </div>

@@ -17,7 +17,7 @@ const HomeFeed = () => {
         </div>
       </section>
       <section>
-        <Link to="/classes">
+        <Link to="/booking">
           <div className="book-message">
             <h1>Book Your Class Here</h1>
             <BookingIcon />

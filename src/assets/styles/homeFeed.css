@@ -90,7 +90,6 @@
   text-align: center;
   margin: 1rem auto;
   padding: 0.3rem;
-  /* opacity: 0.7; */
   width: 35px;
   animation-name: shaka;
   animation-duration: 600ms;
@@ -129,7 +128,7 @@
 }
 
 .home-feed-img {
-  box-shadow: 5px 5px 10px 2px hsla(0, 0%, 27%, 0.2);
+  /* box-shadow: 5px 5px 10px 2px hsla(0, 0%, 27%, 0.2); */
   z-index: 6;
 }
 

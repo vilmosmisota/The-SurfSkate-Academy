@@ -13,7 +13,7 @@ const Footer = () => {
             </p>
           </div>
         </Link>
-        <Link to="/classes" className="link-container">
+        <Link to="/booking" className="link-container">
           <div>
             <p>
               <span>Book</span> your class
