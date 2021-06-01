@@ -3,10 +3,12 @@ import Layout from "../../components/Layout"
 import "../../assets/styles/faq.css"
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi"
 import { Link } from "gatsby"
+import Seo from "../../components/Seo"
 
 const faq = () => {
   return (
     <Layout>
+      <Seo title="FAQ" />
       <div className="faq-page">
         <h1>Frequently Asked Questions</h1>
         <ul className="faq-ul">
@@ -34,25 +36,16 @@ const faq = () => {
           </li>
           <li>
             How long is the class?
-            <p>1.5 hrs for adults - 1hr for children 6 to12 years</p>
-          </li>
-          <li>
-            Will kids be mixed in classes with adults?
-            <p>No.</p>
-          </li>
-          <li>
-            Do I get a discount for booking more classes?
             <p>
-              Yes! You can book a 6 class course which comes at a discount. Each
-              class is 15 pounds, a course of is 80 pounds.
+              90 minutes for group class and 60 minutes for a one-to-one session
             </p>
           </li>
           <li>
             Can I get one to one coaching?
             <p>
-              Yes, you can book one hour sessions with me for 25 pounds or a
-              block of six one to one sessions for 135 pounds. Times can be
-              arranged with me via email.
+              Yes, you can book 60 minutes sessions with me for £25 or a block
+              of six one to one sessions for £135. Times can be arranged with me
+              via email.
             </p>
           </li>
           <li>

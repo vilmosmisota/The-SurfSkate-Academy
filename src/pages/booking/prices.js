@@ -3,19 +3,21 @@ import Layout from "../../components/Layout"
 import "../../assets/styles/prices.css"
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi"
 import { Link } from "gatsby"
+import Seo from "../../components/Seo"
 
 const prices = () => {
   return (
     <Layout>
+      <Seo title="Prices" description="Explain Prices and payment info" />
       <div className="prices-page">
         <h1>Prices</h1>
         <ul className="prices-ul">
           <li>
-            Group class (1.5 hours)
+            Group class (90 minutes)
             <p>£15</p>
           </li>
           <li>
-            One-to-one class (1 hours)
+            One-to-one class (60 minutes)
             <p>£25</p>
           </li>
           <li>
@@ -38,8 +40,9 @@ const prices = () => {
             moved indoors, postponed, canceled and/or refunded
           </h4>
           <h4>
-            Cancelations can be made at 48 hrs with a full refund. Anything
-            after will be charged.
+            Cancelations can be made until 48 hrs beforehand and these will be
+            issued with a full refund or you can reschedule to another session.
+            Anything after 48hrs will be charged in full.
           </h4>
         </div>
       </div>

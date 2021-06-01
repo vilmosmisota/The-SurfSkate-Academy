@@ -3,10 +3,12 @@ import Layout from "../components/Layout"
 import "../assets/styles/booking.css"
 import GetAllClasses from "../components/GetAllClasses"
 import { Link } from "gatsby"
+import Seo from "../components/Seo"
 
 const classes = () => {
   return (
     <Layout>
+      <Seo title="Booking" description="Book your class" />
       <header className="classes-header-container">
         <section className="how-to-book">
           <h3>How to book:</h3>

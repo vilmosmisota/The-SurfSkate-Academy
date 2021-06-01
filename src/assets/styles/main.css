@@ -19,10 +19,10 @@
   --header-headlines-wait-time: 1500ms;
   --header-headlines-load-time: 1200ms;
 
-  --header-headlines-smallscreen-wait-time: 1500ms;
+  --header-headlines-smallscreen-wait-time: 1200ms;
   --header-headlines-smallscreen-load-time: 500ms;
 
-  --header-img-wait-time: 500ms;
+  --header-img-wait-time: 150ms;
   --header-img-load-time: 500ms;
 
   --header-shape-wait-time: 1200ms;

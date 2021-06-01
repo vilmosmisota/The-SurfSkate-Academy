@@ -29,5 +29,6 @@ module.exports = {
         accessToken: `svpjlZ97JGpBku0POVQEkLi2eYQ7fp818rQdTK6blmM`,
       },
     },
+    `gatsby-plugin-react-helmet`,
   ],
 }

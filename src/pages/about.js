@@ -2,10 +2,12 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import "../assets/styles/about.css"
 import Layout from "../components/Layout"
+import Seo from "../components/Seo"
 
 const about = () => {
   return (
     <Layout>
+      <Seo title="About" description="Introduction" />
       <header className="about-header">
         <div className="header-img-container">
           <StaticImage

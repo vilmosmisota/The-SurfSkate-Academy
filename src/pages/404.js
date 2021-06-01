@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
+import Seo from "../components/Seo"
 
 const error = () => {
   const myStyle = {
@@ -11,6 +12,7 @@ const error = () => {
   }
   return (
     <Layout>
+      <Seo title="Error" description="No page found" />
       <div style={myStyle}>
         <h1 style={{ textTransform: "capitalize" }}>
           Ooops, No page found. 404 error.

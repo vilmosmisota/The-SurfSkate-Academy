@@ -4,10 +4,12 @@ import "../assets/styles/classes.css"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import BookingIcon from "../components/BookingIcon"
+import Seo from "../components/Seo"
 
 const coaching = () => {
   return (
     <Layout>
+      <Seo title="Classes" description="One-to-One and group classes " />
       <header className="about-header">
         <div className="header-img-container">
           <StaticImage
@@ -47,20 +49,13 @@ const coaching = () => {
           </p>
         </div>
         <div>
-          <h2>Why is it good to do a course of a minimum of 6 classes?</h2>
+          <h2>Group Class</h2>
           <p>
-            Having a surfskate will undoubtedly help you improve your technique
-            and balance a bit but there is a big difference when you take a
-            class or a course. Depending on your level of control, a single
-            class can help you create awareness of the great learning potential
-            that a surfskate can give you but it will not be enough to analyze
-            your mistakes and correct them. We believe that with a course of 6
-            classes an initial adaptation to your equipment can be achieved,
-            learn the basic requirements for correct posture, find your mistakes
-            to be able to practice exercises to improve them and be able to
-            create the ability to be able to self-analyze and realize when
-            something feels wrong. We try to have groups of no more than 8
-            students and preferably on the same level.
+            Group classes are offered to everyone. These classes will include
+            mixed levels and can be booked via email. You just choose the
+            location, day and time that suits you best. Group classes are a fun
+            way to meet like minded people, learn new techniques and will help
+            you to improve your surfing!
           </p>
           <div className="about-img-container">
             <StaticImage
@@ -75,13 +70,33 @@ const coaching = () => {
           </div>
         </div>
         <div>
-          <h2>Will a course of 6 classes be enough? </h2>
+          <h2>One-to-one class</h2>
           <p>
-            It depends a lot on your level of control but the principle of
-            training is the same for everyone. The more you train, the more you
-            will improve. After taking a course, it is very likely that you will
-            want to take another course at a more advanced level and continue to
-            progress. What I want is to see happy surfers !
+            If you'd like a more personalised experience, I also offer 60 minute
+            session one-to-one classes. These can be organised with me via email
+            or Instagram. I can tailor a course to your individual level, and
+            times/days/locations can be arranged. Single classes and a courses
+            are availible.
+          </p>
+          <div className="about-img-container">
+            <StaticImage
+              src="../assets/images/coaching_onetoone.jpg"
+              alt="surfskating in Edinburgh"
+              width={500}
+              layout="constrained"
+              quality={95}
+              placeholder="none"
+              className="about-img"
+            />
+          </div>
+        </div>
+        <div>
+          <h2>Levels</h2>
+          <p>
+            I can cater to different levels, experience and goals in one to one
+            classes. Group classes will be mixed levels and we´ll cover a
+            variety of different techniques. Everybody is welcome, from beginner
+            to advanced!
           </p>
           <div className="about-img-container">
             <StaticImage
@@ -96,15 +111,19 @@ const coaching = () => {
           </div>
         </div>
         <div>
-          <h2>What happens in a one to one?</h2>
+          <h2>Location</h2>
           <p>
-            The one to one format is a completely personalized experience
-            tailored to individual needs. A more detailed training is delivered,
-            meaning individual progression is faster.
+            Locations can change and it won't be possible to book the same class
+            on the same day weekly. This is due to scheduling issues and also
+            demand for classes in certain locations. I am happy to cater to
+            groups of 4 or more in requested locations so if you and some
+            friends would like a class in a specific spot that's not advertised
+            on the website, drop me an email and we can coordinate a class
+            closer to home.
           </p>
           <div className="about-img-container">
             <StaticImage
-              src="../assets/images/coaching_onetoone.jpg"
+              src="../assets/images/classes_location.jpg"
               alt="surfskating in Edinburgh"
               width={500}
               layout="constrained"
