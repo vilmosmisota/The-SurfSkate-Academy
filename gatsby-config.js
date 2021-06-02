@@ -4,6 +4,10 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   /* Your site config here */
   siteMetadata: {
@@ -26,7 +30,7 @@ module.exports = {
       options: {
         spaceId: `54ebfo0evrwn`,
         // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: `svpjlZ97JGpBku0POVQEkLi2eYQ7fp818rQdTK6blmM`,
+        accessToken: process.env.CONTENTFUL_API_KEY,
       },
     },
     `gatsby-plugin-react-helmet`,
