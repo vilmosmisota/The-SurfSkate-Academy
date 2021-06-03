@@ -75,8 +75,8 @@ const coaching = () => {
             If you'd like a more personalised experience, I also offer 60 minute
             session one-to-one classes. These can be organised with me via email
             or Instagram. I can tailor a course to your individual level, and
-            times/days/locations can be arranged. Single classes and a courses
-            are availible.
+            times/days/locations can be arranged. Single classes and courses are
+            availible.
           </p>
           <div className="about-img-container">
             <StaticImage
