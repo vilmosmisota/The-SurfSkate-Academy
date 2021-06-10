@@ -21,10 +21,6 @@ const prices = () => {
             <p>£25</p>
           </li>
           <li>
-            Course of 6 classes in a group
-            <p>£80</p>
-          </li>
-          <li>
             One-to-one course of 6 classes
             <p>£135</p>
           </li>
@@ -36,8 +32,12 @@ const prices = () => {
             of payment.
           </h4>
           <h4>
+            For classes to go ahead there is a minimum of three studends to be
+            booked.
+          </h4>
+          <h4>
             If the class is called off due to weather conditions it will be
-            moved indoors, postponed, canceled and/or refunded
+            moved indoors, postponed, canceled and/or refunded.
           </h4>
           <h4>
             Cancelations can be made until 48 hrs beforehand and these will be
