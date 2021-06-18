@@ -24,6 +24,27 @@ const HomeFeed = () => {
           </div>
         </Link>
       </section>
+      <section>
+        <div className="supporter">
+          <h1>Supported by:</h1>
+          <a
+            href="https://yowsurf.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="yow-logo-wrapper">
+              <StaticImage
+                src="../assets/svg/yow.PNG"
+                alt="YOW logo"
+                width={200}
+                layout="constrained"
+                quality={95}
+                placeholder="none"
+              />
+            </div>
+          </a>
+        </div>
+      </section>
       <section className="first-section-container">
         <div className="message-container">
           <h1>AT THE SURFSKATE ACADEMY </h1>
