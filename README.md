@@ -32,5 +32,10 @@ In order for easy add, update and delete functionality for the client to manipul
 
 Build a server for form submissions or migrate the CMS to Strapi, depends on the client's budget.
 
+## Author:
+
+Vilmos Misota \
+Web-developer
+
 
 
