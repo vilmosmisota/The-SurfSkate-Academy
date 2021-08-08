@@ -13,7 +13,7 @@ const contact = () => {
           will get back to you as soon as possible.
         </h1>
 
-        <a href="mailto:info@thesurfskateacademy?Subject=General">
+        <a href="mailto:info@thesurfskateacademy.com?Subject=General">
           <div>
             <p>SEND EMAIL</p>
           </div>
