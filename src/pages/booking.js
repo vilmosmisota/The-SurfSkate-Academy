@@ -23,7 +23,7 @@ const classes = () => {
         </section>
         <div className="send-booking">
           <a
-            href="mailto:info@thesurfskateacademy?Subject=Booking"
+            href="mailto:info@thesurfskateacademy.com?Subject=Booking"
             className="send-booking-btn"
           >
             <div className="send-booking-btn-wrapper">
