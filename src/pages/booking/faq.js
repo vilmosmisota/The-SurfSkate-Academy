@@ -15,9 +15,11 @@ const faq = () => {
           <li>
             Do I need my own surfskate?
             <p>
-              The best answer - yes! I may be able to provide on occasion but I
-              have limited stock to lend out. Send me a message if you need to
-              borrow one for the class and I´ll let you know availability
+              NO! If you don't have your own surfskate yet, don't worry, The
+              Surfskate Academy has a large stock of YOW surfskates. You can
+              also take advantage of your class to do a test drive of all the
+              YOW models that we have and know what type of board and wheelbase
+              you like the most.
             </p>
           </li>
           <li>
@@ -37,7 +39,8 @@ const faq = () => {
           <li>
             How long is the class?
             <p>
-              90 minutes for group class and 60 minutes for a one-to-one session
+              75 minutes for a group class and 60 minutes for a one to one
+              session.
             </p>
           </li>
           <li>
