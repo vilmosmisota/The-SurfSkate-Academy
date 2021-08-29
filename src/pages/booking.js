@@ -54,6 +54,11 @@ const classes = () => {
               <p>PRICES</p>
             </div>
           </Link>
+          <Link to="/booking/terms-conditions">
+            <div className="classes-info">
+              <p>T's & C's</p>
+            </div>
+          </Link>
         </section>
         <article className="class-table">
           <div className="class-table-header">

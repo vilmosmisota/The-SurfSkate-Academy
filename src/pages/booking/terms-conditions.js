@@ -10,21 +10,6 @@ const prices = () => {
     <Layout>
       <Seo title="Prices" description="Explain Prices and payment info" />
       <div className="prices-page">
-        <h1>Prices</h1>
-        <ul className="prices-ul">
-          <li>
-            Group class (75 minutes)
-            <p>£15</p>
-          </li>
-          <li>
-            One-to-one class (60 minutes)
-            <p>£25</p>
-          </li>
-          <li>
-            One-to-one course of 6 classes
-            <p>£135</p>
-          </li>
-        </ul>
         <div className="extra-info-prices">
           <h4>
             Payments can be made via bank transfer or PayPal. Once your booking

@@ -44,6 +44,19 @@ footer {
   color: var(--pink);
 }
 
+.footer-info-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-info {
+  margin: 1rem;
+  text-decoration: underline;
+}
+
 .footer-law-section-container {
   background-color: rgba(0, 0, 0, 0.4);
   color: var(--yellow);
