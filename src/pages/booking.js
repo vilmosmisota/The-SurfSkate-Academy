@@ -39,8 +39,8 @@ const classes = () => {
         <section className="class-header">
           <h1>UPCOMING CLASSES</h1>
           <p>
-            GROUP classes only. For ONE-TO-ONE class get in touch with me via
-            email/instagram
+            If you can't find a date, time or location that suits you please
+            send an email or a DM on Instagram
           </p>
         </section>
         <section className="classes-options">
