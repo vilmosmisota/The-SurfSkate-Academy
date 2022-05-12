@@ -68,7 +68,6 @@ const classes = () => {
             <div className="col2">
               <h3>Location</h3>
             </div>
-
             <div className="col3">
               <h3>Availability</h3>
             </div>
